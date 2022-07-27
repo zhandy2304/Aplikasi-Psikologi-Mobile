@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "676580683852",
+    "project_id": "psikologi-28732",
+    "storage_bucket": "psikologi-28732.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676580683852:android:b9216d30e310808d3144e9",
+        "android_client_info": {
+          "package_name": "com.example.psikologi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676580683852-fh0htspjufhul18eekeqq8q1if34die2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWCMiaGEKm8JhzRByf-Xh3TwsnF8Em9EU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676580683852-fh0htspjufhul18eekeqq8q1if34die2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676580683852:android:e3b3f643e9890aba3144e9",
+        "android_client_info": {
+          "package_name": "com.example.psikologi2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676580683852-fh0htspjufhul18eekeqq8q1if34die2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWCMiaGEKm8JhzRByf-Xh3TwsnF8Em9EU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676580683852-fh0htspjufhul18eekeqq8q1if34die2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

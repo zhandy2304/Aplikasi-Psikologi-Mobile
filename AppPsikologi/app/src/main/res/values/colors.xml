@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    //onboarding colors
+
+    //indicator color
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#026e95</color>
+
+    //warna dasar
+    <color name="warna0">#18454b</color>
+    <color name="warna1">#026e95</color>
+    <color name="warna2">#35c5bb</color>
+    <color name="warna4">#81d6d3</color>
+    <color name="warna6">#12373C</color>
+    <color name="abu">#808080</color>
+    <color name="abumuda">#A4EFEFEF</color>
+    <color name="kuning">#F7B31B</color>
+
+
+
+</resources>

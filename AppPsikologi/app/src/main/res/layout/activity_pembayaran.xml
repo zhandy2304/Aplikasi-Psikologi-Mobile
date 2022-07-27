@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dashboard"
+    tools:context=".Pembayaran">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/akun" />
+
+        <TextView
+            android:id="@+id/idTVUser"
+            android:layout_width="84dp"
+            android:layout_height="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:text="Zhandy" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_penyakit"
+        android:paddingTop="20dp"
+        android:paddingHorizontal="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Detail Pembayaran"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="12dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Nama Psikeater"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="12dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/idTVNamaPsikeater"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Nama Psikeater"
+                android:layout_marginLeft="48dp"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="12dp"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Lokasi Psikeater"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="12dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/idTVLokasiPsikeater"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Lokasi Konsultasi"
+                android:layout_marginLeft="48dp"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="12dp"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Harga"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="12dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/idTVharga"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Harga Konsulasi"
+                android:layout_marginLeft="110dp"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="12dp"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Jadwal Konsultasi"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="12dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/idTVjadwal"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Hari Konsultasi"
+                android:layout_marginLeft="35dp"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="12dp"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Durasi Konsultasi"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="12dp"
+                android:textColor="@color/black" />
+
+            <Spinner
+                android:id="@+id/spinnerwaktu"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="37dp"
+                android:entries="@array/jam"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textharga" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jenis Pembayaran"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="12dp"
+                android:textColor="@color/black" />
+
+            <RadioGroup
+                android:id="@+id/Rgppembayran"
+                android:layout_width="209dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp">
+
+                <RadioButton
+                    android:id="@+id/RdbBCA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bank BCA"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    tools:ignore="MissingConstraints" />
+
+                <RadioButton
+                    android:id="@+id/RdbBRI"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:text="Bank BRI"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    tools:ignore="MissingConstraints" />
+
+                <RadioButton
+                    android:id="@+id/RdbMANDIRI"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Bank Mandiri"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    tools:ignore="MissingConstraints" />
+
+                <RadioButton
+                    android:id="@+id/RdbBNI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bank BNI"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    tools:ignore="MissingConstraints" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="142dp"
+                android:layout_height="35dp"
+                android:text="Total Pembayaran"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="14dp"
+                android:textColor="@color/warna1"/>
+
+            <TextView
+                android:id="@+id/idTVTotalHarga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="Rp 75.000"
+                android:textColor="@color/warna1"
+                android:textSize="15dp"
+                android:fontFamily="@font/poppins_semibold" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/bg_button2"
+        android:text="Bayar"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white" />
+
+
+
+</LinearLayout>

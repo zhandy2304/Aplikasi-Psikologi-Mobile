@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:background="@color/warna2"
+    android:orientation="vertical"
+    android:id="@+id/idRLAbout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Aplikasi Psikologi"
+            android:textSize="105px"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelompok 4ction 3A TKJ 2019"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_medium"
+            android:textSize="31px"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="223px"
+                android:layout_height="50px"
+                android:text="Our member"
+                android:fontFamily="@font/montserrat_medium"
+                android:textAllCaps="false"
+                android:textColor="@color/warna1"
+                android:paddingHorizontal="10dp"
+                android:textSize="22px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/bg_about_member" />
+
+            <ImageView
+                android:layout_width="495px"
+                android:layout_height="138px"
+                android:src="@drawable/foto_member"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bg_about"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250px"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="190px"
+                android:layout_height="190px"
+                android:gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/bg_about_fitur">
+                
+                <ImageView
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_maps"/>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fitur Maps"
+                    android:textSize="50px"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat_bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Memungkinkan pengguna untuk menemukan dan mencari penyedia jasa kesehatan jiwa disekitar."
+                    android:textSize="31px"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_reguler"
+                    android:scrollbarSize="26px" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250px"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="190px"
+                android:layout_height="190px"
+                android:gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/bg_about_fitur">
+
+                <ImageView
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_dokter"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fitur Pencarian"
+                    android:textSize="50px"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat_bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pengguna dapat mencari psikeater yang diinginkan."
+                    android:textSize="31px"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_reguler"
+                    android:scrollbarSize="26px" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250px"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="190px"
+                android:layout_height="190px"
+                android:gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/bg_about_fitur">
+
+                <ImageView
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_chat"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fitur Chat"
+                    android:textSize="50px"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat_bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pengguna dapat berkonsultasi dengan psikeater melalui fitur chatting dalam aplikasi."
+                    android:textSize="31px"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_reguler"
+                    android:scrollbarSize="26px" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muhammad Rifqi Muwaffaq || Nurul Syafika || Syahra || Zhandy"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/warna1"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:textSize="30px"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

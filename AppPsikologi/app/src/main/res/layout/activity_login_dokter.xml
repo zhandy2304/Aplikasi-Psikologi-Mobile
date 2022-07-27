@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Dokter"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo3"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp">
+        </ImageView>
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Silahkan Login Terlebih Dahulu">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Psychiatrist Sign In"
+            android:layout_marginHorizontal="20dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/warna0"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/idETemail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_form"
+            android:drawableStart="@drawable/logo_user"
+            android:fontFamily="@font/montserrat_medium"
+            android:hint="     Email"
+            android:paddingLeft="10dp"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/bg_form"
+            android:drawableStart="@drawable/logo_key"
+            android:fontFamily="@font/montserrat_medium"
+            android:hint="     Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Lupa Password ?"
+            android:textSize="12dp"
+            android:textColor="@color/abu"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/idBTNlogin"
+            android:textStyle="bold"
+            android:background="@drawable/bg_button"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:text="Login"
+            android:shadowColor="@color/warna0"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_width="100dp"
+            android:layout_height="50dp"/>
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/idTVor"
+                android:background="@color/abu" />
+
+            <TextView
+                android:id="@+id/idTVor"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins_bold"
+                android:text="or"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/idTVor"
+                android:background="@color/abu" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:layout_marginHorizontal="100dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/google"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/img_google" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/fb"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/google"
+                android:src="@drawable/img_fb" />
+
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/idTVlogin2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_gravity="center"
+                android:text="Login sebagai user ?"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/abu"
+                android:textSize="13dp"
+                />
+
+            <TextView
+                android:id="@+id/idTVlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/idTVlogin_user"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Login"
+                android:textColor="@color/warna0"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

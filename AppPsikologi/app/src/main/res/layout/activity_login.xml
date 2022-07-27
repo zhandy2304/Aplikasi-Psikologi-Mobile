@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OnBoarding">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/logo3"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="Silahkan Login Terlebih Dahulu"
+                    android:textAlignment="center"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Sign In"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/warna0"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/idETemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bg_form"
+                    android:drawableStart="@drawable/logo_user"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:hint="     Email"
+                    android:paddingLeft="10dp"
+                    android:textSize="13dp" />
+
+                <EditText
+                    android:id="@+id/Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="15sp"
+                    android:background="@drawable/bg_form"
+                    android:drawableStart="@drawable/logo_key"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:hint="     Password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="10dp"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Lupa Password ?"
+                    android:textColor="@color/abu"
+                    android:textSize="12dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/idBTNlogin"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/bg_button"
+                    android:fontFamily="@font/poppins_medium"
+                    android:shadowColor="@color/warna0"
+                    android:text="Login"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="250dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="80dp"
+                        android:layout_height="1dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@id/idTVor"
+                        android:background="@color/abu" />
+
+                    <TextView
+                        android:id="@+id/idTVor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="or"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <View
+                        android:layout_width="80dp"
+                        android:layout_height="1dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/idTVor"
+                        android:background="@color/abu" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="100dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/google"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/img_google" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/fb"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/google"
+                        android:src="@drawable/img_fb" />
+
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/idTVdaftar2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="30dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:text="Belum punya akun ?"
+                            android:textColor="@color/abu"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:id="@+id/idTVdaftar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_toRightOf="@+id/idTVdaftar2"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="Daftar"
+                            android:textColor="@color/warna0"
+                            android:textSize="13dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/idTVlogin_dokter2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="30dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:text="Login Sebagai Dokter ?"
+                            android:textColor="@color/abu"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:id="@+id/idTVlogin_dokter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_toRightOf="@+id/idTVdaftar2"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="Login"
+                            android:textColor="@color/warna0"
+                            android:textSize="13dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

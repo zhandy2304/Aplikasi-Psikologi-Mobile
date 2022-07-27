@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/KULIAH/Semester 5/aplikasi mobile/final/terbaru 3/AppPsikologi/app/src/main/res/layout/activity_mainscreen_psikeater.xml" value="0.16893115942028986" />
+        <entry key="..\:/KULIAH/Semester 5/aplikasi mobile/final/terbaru 3/AppPsikologi/app/src/main/res/layout/activity_profil_psikeater.xml" value="0.2" />
+        <entry key="..\:/KULIAH/Semester 5/aplikasi mobile/final/terbaru 3/AppPsikologi/app/src/main/res/layout/activity_profil_user.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/AppPsikologi/AppPsikologi/app/src/main/res/drawable/bg_button2.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/AppPsikologi/AppPsikologi/app/src/main/res/layout/activity_mainscreen.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/AppPsikologi/AppPsikologi/app/src/main/res/layout/activity_profil_psikeater.xml" value="0.1765625" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/AppPsikologi/AppPsikologi/app/src/main/res/layout/afni.xml" value="0.15729166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
